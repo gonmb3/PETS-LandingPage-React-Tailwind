@@ -12,10 +12,12 @@ const Bundles = ({bundles}) => {
         key={index}
         >
             {/* price */}
-            <div className="text-5xl font-bold text-blue-900 mb-4 pt-1">{bundle.price} </div>
+            <div className="text-5xl font-bold w-[250px] mx-auto text-white my-4 bg-orange-600/90 rounded-full py-2">
+              ${bundle.price}
+               </div>
 
              {/* name */}
-             <div className="capitalize mb-12 text-blue-800 font-bold">{bundle.name} </div>
+             <div className="capitalize mb-12 text-blue-800 font-bold  border-b-4 w-[120px] mx-auto border-yellow-200">{bundle.name} </div>
 
               {/* list */}
             <div className="flex flex-col gap-y-4 max-w-[230px] mx-auto ">
