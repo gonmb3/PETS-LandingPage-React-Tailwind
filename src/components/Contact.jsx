@@ -9,7 +9,7 @@ const Contact = () => {
 
           {/*image*/}
           <div className=" order-1 lg:-order-1 mt-16">
-            <img src={DogImg} alt="img-dog" className="w-[500px] h-[400px] drop-shadow-1xl shadow-black object-cover  -mb-[10px] -rotate-2 " />
+            <img src={DogImg} alt="img-dog" className="md:w-[500px] h-[400px] drop-shadow-1xl shadow-black object-contain  -mb-[10px] -rotate-2 " />
           </div>
 
           {/*text*/}

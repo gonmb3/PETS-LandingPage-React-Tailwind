@@ -42,7 +42,7 @@ const Header = () => {
          <div 
          onClick={() => setNavMobile(!navMobile)}
          className="lg:hidden cursor-pointer">
-         <FaBars className="text-blue text-3xl"/>
+         <FaBars className="text-blue-900 text-3xl"/>
          </div>
 
          {/* mobile nav */}

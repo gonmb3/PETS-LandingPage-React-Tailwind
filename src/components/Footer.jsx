@@ -10,16 +10,16 @@ const Footer = () => {
             <div className=" container mx-auto flex justify-between items-center lg:flex-row"> 
             <a href="#"><SiDatadog size={40} className="text-white"/>  </a>
 
-            <div className="text-white text-[12px] font-semibold" >
+            <div className="text-white text-[11px] font-semibold" >
               &copy; Copyright 2022. All rights reserved.
             </div>
 
             {/* socials */}
 
-          <div className="flex gap-x-3 text-white cursor-pointer " >
-            <AiFillTwitterCircle size={22}/>
-            <AiFillInstagram size={22}/>
-            <BsFacebook size={20}/>
+          <div className="flex gap-x-1 text-white cursor-pointer " >
+            <AiFillTwitterCircle size={20}/>
+            <AiFillInstagram size={20}/>
+            <BsFacebook size={18}/>
           </div>
 
 
