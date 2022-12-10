@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+@layer base {
+
+  .h2 {
+    @apply text-2xl lg:text-4xl text-blue-900 font-bold;
+  }
+  .btn,
+  .input-control {
+    @apply text-[15px] h-16 rounded-full outline-none;
+  }
+  .btn {
+    @apply px-8 font-medium text-white bg-orange-600 hover:bg-orange-700 transition;
+  }
+  .input-control {
+    @apply w-full max-w-[514px] px-8 text-blue-900 placeholder:text-blue-800;
+  }
+}
+
+
+body{
+  height: 2000px;
+}
